@@ -7,14 +7,14 @@ import "./HeroSection.css";
 gsap.registerPlugin(ScrollTrigger, Flip);
 
 const images = [
-  "assets/bento/image1.jpg",
-  "assets/bento/image2.jpg",
-  "assets/bento/image3.jpg", // hero
-  "assets/bento/image4.jpg",
-  "assets/bento/image5.jpg",
-  "assets/bento/image6.jpg",
-  "assets/bento/image7.jpg",
-  "assets/bento/image8.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image1.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image2.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image3.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image4.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image5.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image6.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image7.jpg",
+  process.env.PUBLIC_URL + "/assets/bento/image8.jpg",
 ];
 
 export default function HeroSection() {

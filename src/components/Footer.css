@@ -1,16 +1,17 @@
 .footer {
   background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
   color: #fff;
-  padding: 3rem 1rem;
+  padding: 3rem 3rem;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 3rem;
+  gap: 4rem;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .footer-section {
@@ -20,6 +21,7 @@
 
 .brand {
   text-align: left;
+  border-right: 1px solid rgb(255, 255, 255);
 }
 
 .footer-logo {

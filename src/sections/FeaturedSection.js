@@ -69,19 +69,19 @@ export default function FeaturedSection() {
 
       <div className="product-grid">
         <div className="product-card">
-          <img src="assets/bento/image1.jpg" alt="Lipstick" />
+          <img src={process.env.PUBLIC_URL + "/assets/bento/image1.jpg"} alt="Velvet Luxe Lipstick" />
           <h3>Velvet Luxe Lipstick</h3>
           <p>Rich pigments, silky texture, and long-lasting wear.</p>
         </div>
 
         <div className="product-card">
-          <img src="assets/bento/image2.jpg" alt="Foundation" />
+          <img src={process.env.PUBLIC_URL + "/assets/bento/image2.jpg"} alt="Foundation" />
           <h3>Radiance Foundation</h3>
           <p>Lightweight coverage that enhances your natural glow.</p>
         </div>
 
         <div className="product-card">
-          <img src="assets/bento/image4.jpg" alt="Serum" />
+          <img src={process.env.PUBLIC_URL + "/assets/bento/image4.jpg"} alt="Serum" />
           <h3>Botanical Glow Serum</h3>
           <p>Infused with antioxidants to rejuvenate and hydrate.</p>
         </div>
