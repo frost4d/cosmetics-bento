@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cosmetics-bento/static/css/main.a43b94ad.css",
+    "main.js": "/cosmetics-bento/static/js/main.737d5fe3.js",
+    "static/js/453.623bd1b0.chunk.js": "/cosmetics-bento/static/js/453.623bd1b0.chunk.js",
+    "static/media/image6.jpg": "/cosmetics-bento/static/media/image6.4669cea248ab0421068e.jpg",
+    "static/media/image9.jpg": "/cosmetics-bento/static/media/image9.239daa5b4a404080f68e.jpg",
+    "index.html": "/cosmetics-bento/index.html",
+    "main.a43b94ad.css.map": "/cosmetics-bento/static/css/main.a43b94ad.css.map",
+    "main.737d5fe3.js.map": "/cosmetics-bento/static/js/main.737d5fe3.js.map",
+    "453.623bd1b0.chunk.js.map": "/cosmetics-bento/static/js/453.623bd1b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a43b94ad.css",
+    "static/js/main.737d5fe3.js"
+  ]
+}
