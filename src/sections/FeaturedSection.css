@@ -1,0 +1,56 @@
+.featured-section {
+  padding: 4rem 4rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("/public/assets/bento/image6.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.featured-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.featured-subtext {
+  font-size: 2rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 900px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: rgba(38, 34, 34, 0.7);
+  padding: 1rem;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  color: #fff;
+  transform: translateY(30px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}

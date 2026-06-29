@@ -1,0 +1,27 @@
+.behind-section {
+  min-height: 100vh;
+  padding: 2rem 3rem;
+  color: #fff;
+  text-align: center;
+  background-image: url("/public/assets/bento/image9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.behind-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  margin-top: 8rem;
+}
+
+.behind-text {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
