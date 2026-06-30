@@ -2,6 +2,7 @@ p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   text-align: justify;
+  min-width: 350px;
 }
 
 .gallery-wrap {
@@ -91,19 +92,24 @@ p {
   position: absolute;
   bottom: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   text-align: center;
   color: #fbfbfb;
   opacity: 0; /* hidden initially */
   z-index: 10;
   pointer-events: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+  display: flex;              /* ✅ stack logo + text together */
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;       
 }
 
 .hero-logo {
-  position: absolute;
+  /* position: absolute;
   bottom: 10%;
-  left: 10%;
+  left: 10%; */
   max-width: 550px;      /* adjust size */
   width: 100%;
   height: auto;
@@ -120,11 +126,9 @@ p {
 
 .hero-title p {
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin: 0;
   font-weight: 500;
-  text-align: center;
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
