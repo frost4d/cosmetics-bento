@@ -88,7 +88,7 @@ p {
 
 .hero-title {
   position: absolute;
-  top: 35%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -97,6 +97,18 @@ p {
   z-index: 10;
   pointer-events: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-logo {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  max-width: 550px;      /* adjust size */
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+  display: block;
+  filter: drop-shadow(1px 1px 1px rgb(102, 7, 7));
 }
 
 .hero-title h1 {

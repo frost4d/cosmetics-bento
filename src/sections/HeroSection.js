@@ -100,7 +100,11 @@ export default function HeroSection() {
 
         {/* Title overlay */}
         <div className="hero-title">
-          <h1>Frostad Cosmetics</h1>
+          <img 
+    src={process.env.PUBLIC_URL + "/assets/bento/frostadLogo.png"} 
+    alt="Frostad Logo" 
+    className="hero-logo"
+  />
           <p>Elevating beauty into an art form — where innovation meets elegance, 
     and every shade tells your story.</p>
         </div>
