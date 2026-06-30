@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cosmetics-bento/static/css/main.60a0db91.css",
-    "main.js": "/cosmetics-bento/static/js/main.1a8d9ff3.js",
+    "main.css": "/cosmetics-bento/static/css/main.6a480f49.css",
+    "main.js": "/cosmetics-bento/static/js/main.d99fa59e.js",
     "static/js/453.623bd1b0.chunk.js": "/cosmetics-bento/static/js/453.623bd1b0.chunk.js",
     "static/media/image6.jpg": "/cosmetics-bento/static/media/image6.4669cea248ab0421068e.jpg",
     "static/media/image9.jpg": "/cosmetics-bento/static/media/image9.239daa5b4a404080f68e.jpg",
     "index.html": "/cosmetics-bento/index.html",
-    "main.60a0db91.css.map": "/cosmetics-bento/static/css/main.60a0db91.css.map",
-    "main.1a8d9ff3.js.map": "/cosmetics-bento/static/js/main.1a8d9ff3.js.map",
+    "main.6a480f49.css.map": "/cosmetics-bento/static/css/main.6a480f49.css.map",
+    "main.d99fa59e.js.map": "/cosmetics-bento/static/js/main.d99fa59e.js.map",
     "453.623bd1b0.chunk.js.map": "/cosmetics-bento/static/js/453.623bd1b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60a0db91.css",
-    "static/js/main.1a8d9ff3.js"
+    "static/css/main.6a480f49.css",
+    "static/js/main.d99fa59e.js"
   ]
 }
