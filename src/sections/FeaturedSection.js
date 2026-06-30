@@ -25,7 +25,7 @@ export default function FeaturedSection() {
         opacity: 0,
         y: 50,
         duration: 1.2,
-        ease: "power4.out",
+        ease: "power1.out",
       });
 
       // Subtext fade in
@@ -33,7 +33,7 @@ export default function FeaturedSection() {
         opacity: 0,
         y: 30,
         duration: 1,
-        ease: "power2.out",
+        ease: "power1.out",
       }, ">");
 
       // Product cards stagger in
@@ -41,7 +41,7 @@ export default function FeaturedSection() {
         opacity: 0,
         y: 100,
         duration: 1.2,
-        ease: "power3.out",
+        ease: "power1.out",
         stagger: 0.3,
       }, ">");
 

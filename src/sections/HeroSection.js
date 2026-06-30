@@ -22,6 +22,7 @@ export default function HeroSection() {
 
   useEffect(() => {
     let flipCtx;
+    let resizeTimeout;
 
     const createTween = () => {
       const galleryElement = containerRef.current.querySelector(".gallery");
@@ -38,7 +39,8 @@ export default function HeroSection() {
 
         const flip = Flip.to(flipState, {
           simple: true,
-          ease: "expoScale(1, 5)",
+          ease: "power2.out", // ✅ lighter easing
+          duration: 0.8, 
         });
 
         const tl = gsap.timeline({
@@ -52,29 +54,26 @@ export default function HeroSection() {
         });
 
         // morph grid into fullscreen hero
-        tl.add(flip);
-
-        // show title overlay when hero is fullscreen
-        tl.to(".hero-title", {
-          opacity: 1,
-          y: 0,
-          duration: .1,
-          ease: "power2.out",
-        }, ">");
-
-        // fade in text section
-        tl.to(".section", {
-          opacity: 1,
-          y: 0,
-          duration: .1,
-          ease: "power2.out",
-        }, ">");
+        tl.add(flip)
+  .to([".hero-title", ".section"], {
+    opacity: 1,
+    y: 0,
+    duration: 0.3,
+    ease: "power1.out",
+    stagger: 0.1
+  }, ">");
 
         return () => gsap.set(galleryItems, { clearProps: "all" });
       }, containerRef);
     };
 
     createTween();
+    // ✅ debounce resize listener
+    const handleResize = () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(createTween, 250);
+    };
+
     window.addEventListener("resize", createTween);
 
     return () => {

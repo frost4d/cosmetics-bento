@@ -24,7 +24,7 @@ export default function BehindSection() {
         opacity: 0,
         y: 50,
         duration: 1.2,
-        ease: "power4.out",
+        ease: "power1.out",
       });
 
       // Paragraphs stagger in
@@ -32,7 +32,7 @@ export default function BehindSection() {
         opacity: 0,
         y: 30,
         duration: 1,
-        ease: "power2.out",
+        ease: "power1.out",
         stagger: 0.4,
       }, ">");
 
