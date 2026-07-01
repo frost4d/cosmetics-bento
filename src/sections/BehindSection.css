@@ -13,7 +13,7 @@
 .behind-heading {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   margin-top: 8rem;
 }
@@ -24,4 +24,21 @@
   margin: 0 auto 1.5rem;
   line-height: 1.6;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 768px) {
+  .behind-section {
+    padding: 2rem 1.5rem;
+    background-position: center top;
+  }
+
+  .behind-heading {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .behind-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }

@@ -109,7 +109,7 @@ export default function HeroSection() {
         </div>
       </section>
 
-      <div className="section">
+      {/* <div className="section">
         <h2>Discover the Essence of Radiance</h2>
         <p>
           At <strong>Frostad Cosmetics</strong>, beauty is more than skin deep —
@@ -153,7 +153,7 @@ export default function HeroSection() {
           experience the transformative power of cosmetics that care. Frostad
           Cosmetics — <em>crafted for confidence, designed for you.</em>
         </p>
-      </div>
+      </div> */}
     </>
   );
 }

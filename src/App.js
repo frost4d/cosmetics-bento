@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "@mui/material";
 import HeroSection from "./sections/HeroSection";
 import FeaturedSection from "./sections/FeaturedSection";
+import EssenceSection from "./sections/EssenceSection";
 // import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BehindSection from "./sections/BehindSection";
@@ -9,10 +10,11 @@ import BehindSection from "./sections/BehindSection";
 function App() {
   return (
     <Box sx={{
-      overflowX: "hidden",
+      // overflowX: "hidden",
     }}>
       {/* <Navbar /> */}
       <HeroSection />
+      <EssenceSection />
       <FeaturedSection />
       <BehindSection />
       <Footer />

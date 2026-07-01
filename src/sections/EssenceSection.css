@@ -1,0 +1,44 @@
+.essence-section {
+  padding: 4rem 3rem;
+  background-color: #fff;
+  color: #111;
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 20px rgba(0,0,0,0.1); */
+}
+
+.essence-section h2,
+.essence-section p {
+  will-change: transform, opacity;
+}
+
+
+.essence-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #111;
+}
+
+.essence-section p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .essence-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .essence-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .essence-section p {
+    font-size: 1rem;
+  }
+}
